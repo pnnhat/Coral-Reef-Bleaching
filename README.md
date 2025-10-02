@@ -25,17 +25,17 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" alt="Output figure 1" width="780"><br>
-  <em>Figure 1: [Your caption for this figure]</em>
+  <em>Figure 3: Log-Normal Distribution of Variables</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/88621e63-7586-49fd-b88a-8045bb53d9ea" alt="Output figure 2" width="780"><br>
-  <em>Figure 2: [Your caption for this figure]</em>
+  <em>Figure 8: Percent Bleaching Over Time by Oceans</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" alt="Output figure 3" width="780"><br>
-  <em>Figure 3: [Your caption for this figure]</em>
+  <em>Figure 9: Correlation Heatmap</em>
 </p>
 
 <p align="center">
