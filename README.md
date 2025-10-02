@@ -53,7 +53,7 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 ### 2) Model Diagnostics
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e967973e-0812-425f-a29c-6cde707d3c3a"  alt="Output figure 14" width="680"><br>
+  <img src="https://github.com/user-attachments/assets/e967973e-0812-425f-a29c-6cde707d3c3a"  alt="Output figure 14" width="600"><br>
   <em>Figure 14: Normalized Confusion Matrix (Test Set)</em>
 </p>
 
