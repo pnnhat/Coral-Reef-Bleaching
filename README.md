@@ -55,17 +55,17 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 ### 1) Exploratory Data Analysis
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" alt="Output figure 1" width="600"><br>
+  <img src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" alt="Output figure 1" width="650"><br>
   <em>Figure 3: Log-Normal Distribution of Variables</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/88621e63-7586-49fd-b88a-8045bb53d9ea" alt="Output figure 2" width="600"><br>
+  <img src="https://github.com/user-attachments/assets/88621e63-7586-49fd-b88a-8045bb53d9ea" alt="Output figure 2" width="650"><br>
   <em>Figure 8: Percent Bleaching Over Time by Oceans</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" alt="Output figure 3" width="600"><br>
+  <img src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" alt="Output figure 3" width="650"><br>
   <em>Figure 9: Correlation Heatmap</em>
 </p>
 
@@ -73,12 +73,12 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 ### 2) Model Diagnostics
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e967973e-0812-425f-a29c-6cde707d3c3a"  alt="Output figure 14" width="400"><br>
+  <img src="https://github.com/user-attachments/assets/e967973e-0812-425f-a29c-6cde707d3c3a"  alt="Output figure 14" width="500"><br>
   <em>Figure 14: Normalized Confusion Matrix (Test Set)</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/25319836-f2e8-4e2f-9c01-37600e9d0041" alt ="Feature Importance" width = "600"><br>
+  <img src="https://github.com/user-attachments/assets/25319836-f2e8-4e2f-9c01-37600e9d0041" alt ="Feature Importance" width = "650"><br>
   <em>Figure 12: Feature Importance Across Models</em>
 </p>
 
@@ -86,16 +86,16 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 
 ### 3) SHAP Explainability
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Mean Shap" width="600"><br>
+  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Mean Shap" width="650"><br>
   <em>Figure 15: Mean SHAP Values by Class</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Output figure 5" width="600"><br>
+  <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Output figure 5" width="650"><br>
   <em>Figure 16: Beeswarm plot (Global Explaination)</em>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" alt="Output figure 6" width="600"><br>
+  <img src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" alt="Output figure 6" width="650"><br>
   <em>Figure 21: Before and After Interventions Bar Plot</em>
 </p>
 
