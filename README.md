@@ -23,10 +23,14 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 ## Figures
 ### 1) Exploratory Data Analysis
 
+<p align="center">
+  <img src="ttps://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" alt="Performance comparison of models" width="780"><br>
+  <em>Figure 2: Performance comparison of different models for coral reef bleaching prediction</em>
+</p>
+
 <img width="1189" height="788" alt="output" src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" />
 <img width="1189" height="590" alt="output5" src="https://github.com/user-attachments/assets/88621e63-7586-49fd-b88a-8045bb53d9ea" />
 <img width="872" height="635" alt="output6" src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" />
-<img width="889" height="593" alt="output9" src="https://github.com/user-attachments/assets/41b818b7-9fd5-4ac3-b4bc-66460f13b79d" />
 
 
 ### 2) Model Diagnostics
