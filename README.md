@@ -38,10 +38,6 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
   <em>Figure 9: Correlation Heatmap</em>
 </p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Performance comparison of models" width="780"><br>
-  <em>Figure 4: Performance comparison of different models for coral reef bleaching prediction</em>
-</p>
 
 
 <p align="center">
@@ -58,6 +54,11 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 </p>
 
 ### 3) SHAP Explainability
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Mean Shap" width="780"><br>
+  <em>Figure 15: Mean SHAP Values by Class</em>
+</p>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Output figure 5" width="780"><br>
   <em>Figure 5: [Your caption for this figure]</em>
