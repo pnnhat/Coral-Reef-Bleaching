@@ -24,13 +24,10 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 ### 1) Exploratory Data Analysis
 
 <img width="1189" height="788" alt="output" src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" />
-
 <img width="1189" height="590" alt="output5" src="https://github.com/user-attachments/assets/88621e63-7586-49fd-b88a-8045bb53d9ea" />
 <img width="872" height="635" alt="output6" src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" />
 <img width="889" height="593" alt="output9" src="https://github.com/user-attachments/assets/41b818b7-9fd5-4ac3-b4bc-66460f13b79d" />
-<img width="1023" height="630" alt="output12" src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" />
-<img width="797" height="496" alt="output13" src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" />
-<img width="999" height="529" alt="output15" src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" />
+
 
 ### 2) Model Diagnostics
 
@@ -48,30 +45,9 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 
 ### 3) SHAP Explainability
 
-<p align="center">
-  <img src="figs/shap_waterfall_mild.png" alt="SHAP waterfall - class Mild" width="700">
-</p>
-<p align="center"><em>Fig. 10. Local SHAP waterfall (class: Mild) for a representative test instance.</em></p>
-
-<p align="center">
-  <img src="figs/shap_waterfall_moderate.png" alt="SHAP waterfall - class Moderate" width="700">
-</p>
-<p align="center"><em>Fig. 11. Local SHAP waterfall (class: Moderate) for a representative test instance.</em></p>
-
-<p align="center">
-  <img src="figs/shap_waterfall_severe.png" alt="SHAP waterfall - class Severe" width="700">
-</p>
-<p align="center"><em>Fig. 12. Local SHAP waterfall (class: Severe) for a representative test instance.</em></p>
-
-<p align="center">
-  <img src="figs/mean_shap_by_class.png" alt="Mean SHAP by class" width="780">
-</p>
-<p align="center"><em>Fig. 13. Mean SHAP value per feature, stratified by class (Mild/Moderate/Severe).</em></p>
-
-<p align="center">
-  <img src="figs/shap_beeswarm_stack.png" alt="SHAP beeswarm for stacking model" width="780">
-</p>
-<p align="center"><em>Fig. 14. Global SHAP beeswarm for the stacking model (Kernel SHAP).</em></p>
+<img width="1023" height="630" alt="output12" src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" />
+<img width="797" height="496" alt="output13" src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" />
+<img width="999" height="529" alt="output15" src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" />
 
 ## Key Results
 
