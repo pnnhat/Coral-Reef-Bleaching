@@ -20,6 +20,92 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
   - **TreeExplainer** on RF/XGB and an **RF surrogate** of the stack (for fast waterfalls).  
 - **Evaluation:** Accuracy, **macro** Precision/Recall/F1, **normalised confusion matrix**.
 
+## Figures
+
+> Place exported images under `figs/` with the filenames below (or adjust paths).  
+> All figures were generated from the notebooks in this repo.
+
+### 1) Exploratory Data Analysis
+
+<p align="center">
+  <img src=" <img width="1189" height="788" alt="output" src="https://github.com/user-attachments/assets/19cf6af0-bf95-4050-80b4-652b469cca7c" />
+ " alt="Log histograms of continuous variables" width="780">
+</p>
+<p align="center"><em>Fig. 1. Log1p histograms (Distance_to_Shore, Turbidity, Cyclone_Frequency, Depth_m, Percent_Cover, ClimSST, Temperature_Kelvin, Windspeed, SSTA, TSA).</em></p>
+
+<p align="center">
+  <img src="figs/categorical_distributions.png" alt="Categorical distributions" width="780">
+</p>
+<p align="center"><em>Fig. 2. Proportion plots for Ocean_Name, Exposure, and Percent_Bleaching_Category.</em></p>
+
+<p align="center">
+  <img src="figs/percent_bleaching_by_ocean_box.png" alt="Percent bleaching by ocean (boxplots)" width="780">
+</p>
+<p align="center"><em>Fig. 3. Percent Bleaching by ocean basin (box plots).</em></p>
+
+<p align="center">
+  <img src="figs/percent_bleaching_by_exposure_violin.png" alt="Percent bleaching by exposure (violin)" width="780">
+</p>
+<p align="center"><em>Fig. 4. Percent Bleaching by exposure (violin plots).</em></p>
+
+<p align="center">
+  <img src="figs/bleaching_over_time_global.png" alt="Global bleaching over time" width="780">
+</p>
+<p align="center"><em>Fig. 5. Mean Percent Bleaching over time (global).</em></p>
+
+<p align="center">
+  <img src="figs/bleaching_over_time_by_ocean.png" alt="Bleaching over time by ocean" width="780">
+</p>
+<p align="center"><em>Fig. 6. Mean Percent Bleaching over time by ocean basin.</em></p>
+
+<p align="center">
+  <img src="figs/correlation_heatmap.png" alt="Correlation heatmap" width="780">
+</p>
+<p align="center"><em>Fig. 7. Pearson correlation heatmap for numeric variables.</em></p>
+
+---
+
+### 2) Model Diagnostics
+
+<p align="center">
+  <img src="figs/feature_importances_across_models.png" alt="Feature importances across models" width="780">
+</p>
+<p align="center"><em>Fig. 8. Normalised feature importances for RF, XGB, and averaged for the stacking ensemble.</em></p>
+
+<p align="center">
+  <img src="figs/confusion_matrix_stacking.png" alt="Normalised confusion matrix for stacking model" width="600">
+</p>
+<p align="center"><em>Fig. 9. Normalised confusion matrix (test set) for the stacking model.</em></p>
+
+---
+
+### 3) SHAP Explainability
+
+<p align="center">
+  <img src="figs/shap_waterfall_mild.png" alt="SHAP waterfall - class Mild" width="700">
+</p>
+<p align="center"><em>Fig. 10. Local SHAP waterfall (class: Mild) for a representative test instance.</em></p>
+
+<p align="center">
+  <img src="figs/shap_waterfall_moderate.png" alt="SHAP waterfall - class Moderate" width="700">
+</p>
+<p align="center"><em>Fig. 11. Local SHAP waterfall (class: Moderate) for a representative test instance.</em></p>
+
+<p align="center">
+  <img src="figs/shap_waterfall_severe.png" alt="SHAP waterfall - class Severe" width="700">
+</p>
+<p align="center"><em>Fig. 12. Local SHAP waterfall (class: Severe) for a representative test instance.</em></p>
+
+<p align="center">
+  <img src="figs/mean_shap_by_class.png" alt="Mean SHAP by class" width="780">
+</p>
+<p align="center"><em>Fig. 13. Mean SHAP value per feature, stratified by class (Mild/Moderate/Severe).</em></p>
+
+<p align="center">
+  <img src="figs/shap_beeswarm_stack.png" alt="SHAP beeswarm for stacking model" width="780">
+</p>
+<p align="center"><em>Fig. 14. Global SHAP beeswarm for the stacking model (Kernel SHAP).</em></p>
+
 ## Key Results
 
 ### Test Performance
