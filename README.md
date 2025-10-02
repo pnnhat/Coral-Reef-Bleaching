@@ -1,4 +1,4 @@
-# Predicting Coral Reef Bleaching
+# Performance of stacking machine learning model for reducing coral reef bleaching
 Full documentation can be found here: [Performance of stacking machine learning model for reducing coral reef bleaching.pdf](https://github.com/user-attachments/files/22663246/Performance.of.stacking.machine.learning.model.for.reducing.coral.reef.bleaching.pdf)
 
 ## Project Objective
