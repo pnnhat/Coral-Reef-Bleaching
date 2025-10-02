@@ -21,15 +21,16 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 - **Evaluation:** Accuracy, **macro** Precision/Recall/F1, **normalised confusion matrix**.
 
 ## Figures
-
-> Place exported images under `figs/` with the filenames below (or adjust paths).  
-> All figures were generated from the notebooks in this repo.
-
 ### 1) Exploratory Data Analysis
 
 <img width="1189" height="788" alt="output" src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" />
 
----
+<img width="1189" height="590" alt="output5" src="https://github.com/user-attachments/assets/88621e63-7586-49fd-b88a-8045bb53d9ea" />
+<img width="872" height="635" alt="output6" src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" />
+<img width="889" height="593" alt="output9" src="https://github.com/user-attachments/assets/41b818b7-9fd5-4ac3-b4bc-66460f13b79d" />
+<img width="1023" height="630" alt="output12" src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" />
+<img width="797" height="496" alt="output13" src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" />
+<img width="999" height="529" alt="output15" src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" />
 
 ### 2) Model Diagnostics
 
