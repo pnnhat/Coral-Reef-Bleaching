@@ -28,9 +28,35 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
   <em>Figure 2: Performance comparison of different models for coral reef bleaching prediction</em>
 </p>
 
-<img width="1189" height="788" alt="output" src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" />
-<img width="1189" height="590" alt="output5" src="https://github.com/user-attachments/assets/88621e63-7586-49fd-b88a-8045bb53d9ea" />
-<img width="872" height="635" alt="output6" src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" alt="Output figure 1" width="780"><br>
+  <em>Figure 1: [Your caption for this figure]</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/88621e63-7586-49fd-b88a-8045bb53d9ea" alt="Output figure 2" width="780"><br>
+  <em>Figure 2: [Your caption for this figure]</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" alt="Output figure 3" width="780"><br>
+  <em>Figure 3: [Your caption for this figure]</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Performance comparison of models" width="780"><br>
+  <em>Figure 4: Performance comparison of different models for coral reef bleaching prediction</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Output figure 5" width="780"><br>
+  <em>Figure 5: [Your caption for this figure]</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" alt="Output figure 6" width="780"><br>
+  <em>Figure 6: [Your caption for this figure]</em>
+</p>
 
 
 ### 2) Model Diagnostics
@@ -40,21 +66,10 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 </p>
 <p align="center"><em>Fig. 8. Normalised feature importances for RF, XGB, and averaged for the stacking ensemble.</em></p>
 
-<p align="center">
-  <img src="figs/confusion_matrix_stacking.png" alt="Normalised confusion matrix for stacking model" width="600">
-</p>
-<p align="center"><em>Fig. 9. Normalised confusion matrix (test set) for the stacking model.</em></p>
-
 ---
 
 ### 3) SHAP Explainability
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Performance comparison of models" width="780"><br>
-  <em>Figure 2: Performance comparison of different models for coral reef bleaching prediction</em>
-</p>
-<img width="797" height="496" alt="output13" src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" />
-<img width="999" height="529" alt="output15" src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" />
 
 ## Key Results
 
