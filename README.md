@@ -27,41 +27,7 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 
 ### 1) Exploratory Data Analysis
 
-<p align="center">
-  <img src=" <img width="1189" height="788" alt="output" src="https://github.com/user-attachments/assets/19cf6af0-bf95-4050-80b4-652b469cca7c" />
- " alt="Log histograms of continuous variables" width="780">
-</p>
-<p align="center"><em>Fig. 1. Log1p histograms (Distance_to_Shore, Turbidity, Cyclone_Frequency, Depth_m, Percent_Cover, ClimSST, Temperature_Kelvin, Windspeed, SSTA, TSA).</em></p>
-
-<p align="center">
-  <img src="figs/categorical_distributions.png" alt="Categorical distributions" width="780">
-</p>
-<p align="center"><em>Fig. 2. Proportion plots for Ocean_Name, Exposure, and Percent_Bleaching_Category.</em></p>
-
-<p align="center">
-  <img src="figs/percent_bleaching_by_ocean_box.png" alt="Percent bleaching by ocean (boxplots)" width="780">
-</p>
-<p align="center"><em>Fig. 3. Percent Bleaching by ocean basin (box plots).</em></p>
-
-<p align="center">
-  <img src="figs/percent_bleaching_by_exposure_violin.png" alt="Percent bleaching by exposure (violin)" width="780">
-</p>
-<p align="center"><em>Fig. 4. Percent Bleaching by exposure (violin plots).</em></p>
-
-<p align="center">
-  <img src="figs/bleaching_over_time_global.png" alt="Global bleaching over time" width="780">
-</p>
-<p align="center"><em>Fig. 5. Mean Percent Bleaching over time (global).</em></p>
-
-<p align="center">
-  <img src="figs/bleaching_over_time_by_ocean.png" alt="Bleaching over time by ocean" width="780">
-</p>
-<p align="center"><em>Fig. 6. Mean Percent Bleaching over time by ocean basin.</em></p>
-
-<p align="center">
-  <img src="figs/correlation_heatmap.png" alt="Correlation heatmap" width="780">
-</p>
-<p align="center"><em>Fig. 7. Pearson correlation heatmap for numeric variables.</em></p>
+<img width="1189" height="788" alt="output" src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" />
 
 ---
 
