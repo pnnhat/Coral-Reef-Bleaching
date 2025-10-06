@@ -80,7 +80,7 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 </p>
 
 ### Feasible Interventions
-SHAP-guided changes to modifiable features. **Percent_Cover** give large probability shifts on the test set.
+Making changes directed by SHARP to modifiable features. In short, **Percent_Cover** give large probability shifts on the test set.
 
 | Class | Baseline | After Intervention | Abs Δ | Rel Δ |
 |---|---:|---:|---:|---:|
