@@ -10,9 +10,6 @@
 - [Key Results](#key-results)
 - [Figures](#figures)
 - [Interpretation in One Paragraph](#interpretation-in-one-paragraph)
-- [Data & Code Availability](#data--code-availability)
-- [Citation](#citation)
-- [License](#license)
 
 ## Project Objective
 Coral reefs play a crucial role in safeguarding marine ecosystems and coastal regions. However, they are increasingly threatened by climate change and global warming, which put their survival at risk. This study predicts **bleaching severity** (Mild/Moderate/Severe) using a **stacking ensemble** and translates model explanations into **feasible interventions** that reduce the probability of high-severity bleaching.
@@ -25,10 +22,10 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 - **Models:**  
   - Baselines: **Random Forest**, **XGBoost**.  
   - **Stacking:** RF + XGB → **multinomial Logistic Regression** meta-learner (out-of-fold probabilities; no leakage).  
-- **Training Protocol:** 70/30 split; **StandardScaler**=; **SMOTE** *.  
+- **Training Protocol:** 70/30 split, StandardScaler, SMOTE.  
 - **Explainability:** **Kernel SHAP** on the stack (global), **TreeExplainer** on RF/XGB and an **RF surrogate** of the stack (fast waterfalls).  
 - **Evaluation:** Accuracy, **macro** Precision/Recall/F1, **normalised confusion matrix**.  
-- **Interventions:** SHAP-guided, **feasible** edits of modifiable features (e.g., +cover), clipped to data-driven bounds.
+- **Interventions:** SHAP-guided, **feasible** edits of modifiable features (e.g., +cover)s.
 - 
 ## Key Results
 ### Test Performance
@@ -52,7 +49,7 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 - Thermal/exposure variables (ClimSST, Temperature_Kelvin, SSTA, TSA, Windspeed, Cyclone_Frequency, Distance_to_Shore, Depth_m) refine risk with smaller, context-dependent impacts.
 - Local **waterfalls** corroborate: cover typically provides the largest positive/negative shift from baseline for Mild.
 
-### Feasible, SHAP-Guided Interventions (Test, Mean Probabilities)
+### Feasible Interventions (Test, Mean Probabilities)
 | Class | Baseline | After Intervention | Abs Δ | Rel Δ |
 |---|---:|---:|---:|---:|
 | **Mild** | 0.7955 | **0.8989** | **+0.1033** | **+12.99%** |
@@ -107,3 +104,5 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
   <em>Figure 21: Before and After Interventions Bar Plot</em>
 </p>
 
+## Interpretation in One Paragraph
+The stacking ensemble attains the strongest overall test accuracy while maintaining balanced macro performance under class imbalance. SHAP analyses consistently show that higher live coral cover is the key factor in protecting reefs. More coral cover boosts the chances of Mild bleaching outcomes while reducing the likelihood of Moderate or Severe ones. Other factors like turbidity, thermal conditions, and exposure play smaller roles. By translating this into practical steps, small, achievable increases in coral cover (paired with careful water quality improvements) can significantly lower the risk of severe bleaching. This gives a clear, reliable guide for focusing restoration and protection efforts where they’ll have the biggest impact.
