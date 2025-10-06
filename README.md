@@ -7,8 +7,7 @@
 ## Table of Contents
 - [Project Objective](#project-objective)
 - [Methods at a Glance](#methods-at-a-glance)
-- [Key Results](#key-results)
-- [Figures](#figures)
+- [Key Results (with Figures](#key-results)
 - [Interpretation in One Paragraph](#interpretation-in-one-paragraph)
 
 ## Project Objective
