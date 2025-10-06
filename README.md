@@ -55,32 +55,32 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 | **Stacking**   | **0.9854** | **0.8644** | **0.6554** | **0.6735** | **0.6631** |
 
 **Class probabilities (Stack, test):** Mild **0.7955**, Moderate **0.1396**, Severe **0.0649**  
-**Confusion (row-normalised):** Mild recall **92.64%**; Moderate **58.46%** (most errors → Mild **29.04%**); Severe **50.95%**.
+**Confusion Matrix:** Mild recall **92.64%**; Moderate **58.46%**; Severe **50.95%**.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e967973e-0812-425f-a29c-6cde707d3c3a"  alt="Confusion matrix" width="500"><br>
-  <em>Normalized confusion matrix (test set): high Mild recall, reasonable minority recovery.</em>
+  <em>Normalized confusion matrix (test set)</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/25319836-f2e8-4e2f-9c01-37600e9d0041" alt ="Feature importance" width = "650"><br>
-  <em>Feature importance across models (Percent_Cover dominates; others refine risk).</em>
+  <em>Feature importance across models (Percent_Cover dominates)</em>
 </p>
 
 ### SHAP Explainability
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Mean SHAP by class" width="650"><br>
-  <em>Mean SHAP values by class for the stacking model (validated with surrogate): cover is the dominant protective driver.</em>
+  <em>Mean SHAP values by class for the stacking model: Cover is the dominant protective driver.</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Beeswarm" width="650"><br>
-  <em>Beeswarm (global explanation): high cover shifts predictions toward Mild; other factors have smaller, context-dependent effects.</em>
+  <em>Beeswarm (global explanation): High cover shifts predictions toward Mild; Other factors have smaller effects.</em>
 </p>
 
 ### Feasible Interventions
-SHAP-guided edits (bounded, data-driven) to modifiable features—primarily **Percent_Cover**—yield large, model-consistent probability shifts on the test set.
+SHAP-guided changes to modifiable features. **Percent_Cover** give large probability shifts on the test set.
 
 | Class | Baseline | After Intervention | Abs Δ | Rel Δ |
 |---|---:|---:|---:|---:|
