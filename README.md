@@ -42,7 +42,7 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" alt="Output figure 3" width="650"><br>
+  <img src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" alt="Output figure 3" width="600"><br>
   <em>Figure 9: Correlation Heatmap</em>
 </p>
 
