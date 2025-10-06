@@ -28,36 +28,8 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 - **Interventions:** SHAP-guided, **feasible** edits of modifiable features (e.g., +cover)s.
 - 
 ## Key Results
-### Test Performance
-| Model          | Train Acc | Test Acc | Macro Precision | Macro Recall | Macro F1 |
-|---|---:|---:|---:|---:|---:|
-| Random Forest  | 0.9787 | 0.8605 | 0.6447 | 0.6933 | 0.6663 |
-| XGBoost        | 0.8207 | 0.8163 | 0.5748 | 0.6769 | 0.6099 |
-| **Stacking**   | **0.9854** | **0.8644** | **0.6554** | **0.6735** | **0.6631** |
 
-**Takeaway:** The stack edges RF on test accuracy and macro precision, with comparable macro-F1; both exceed XGB.
-
-### Class Probabilities (Stack, Test Set)
-- Mild **0.7955**, Moderate **0.1396**, Severe **0.0649**.
-
-### Confusion Highlights (Normalised Rows, Test)
-- Mild recall **92.64%**; Moderate **58.46%** (most errors → Mild **29.04%**); Severe **50.95%** (errors split to Moderate/Mild).
-
-### SHAP Insights (Global → Local)
-- **Percent_Cover** is the dominant protective driver: increases push predictions toward **Mild** and away from **Moderate/Severe**.
-- **Turbidity** has a smaller, bounded protective effect within this dataset’s range.
-- Thermal/exposure variables (ClimSST, Temperature_Kelvin, SSTA, TSA, Windspeed, Cyclone_Frequency, Distance_to_Shore, Depth_m) refine risk with smaller, context-dependent impacts.
-- Local **waterfalls** corroborate: cover typically provides the largest positive/negative shift from baseline for Mild.
-
-### Feasible Interventions (Test, Mean Probabilities)
-| Class | Baseline | After Intervention | Abs Δ | Rel Δ |
-|---|---:|---:|---:|---:|
-| **Mild** | 0.7955 | **0.8989** | **+0.1033** | **+12.99%** |
-| **Moderate** | 0.1396 | **0.0925** | **−0.0470** | **−33.71%** |
-| **Severe** | 0.0649 | **0.0086** | **−0.0563** | **−86.75%** |
-
-## Figures
-### 1) Exploratory Data Analysis
+###  Exploratory Data Analysis
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" alt="Output figure 1" width="650"><br>
@@ -74,34 +46,51 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
   <em>Figure 9: Correlation Heatmap</em>
 </p>
 
+### Model Diagnostics
 
-### 2) Model Diagnostics
+| Model          | Train Acc | Test Acc | Macro Precision | Macro Recall | Macro F1 |
+|---|---:|---:|---:|---:|---:|
+| Random Forest  | 0.9787 | 0.8605 | 0.6447 | 0.6933 | 0.6663 |
+| XGBoost        | 0.8207 | 0.8163 | 0.5748 | 0.6769 | 0.6099 |
+| **Stacking**   | **0.9854** | **0.8644** | **0.6554** | **0.6735** | **0.6631** |
+
+**Class probabilities (Stack, test):** Mild **0.7955**, Moderate **0.1396**, Severe **0.0649**  
+**Confusion (row-normalised):** Mild recall **92.64%**; Moderate **58.46%** (most errors → Mild **29.04%**); Severe **50.95%**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e967973e-0812-425f-a29c-6cde707d3c3a"  alt="Output figure 14" width="500"><br>
-  <em>Figure 14: Normalized Confusion Matrix (Test Set)</em>
+  <img src="https://github.com/user-attachments/assets/e967973e-0812-425f-a29c-6cde707d3c3a"  alt="Confusion matrix" width="500"><br>
+  <em>Normalized confusion matrix (test set): high Mild recall, reasonable minority recovery.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/25319836-f2e8-4e2f-9c01-37600e9d0041" alt ="Feature Importance" width = "650"><br>
-  <em>Figure 12: Feature Importance Across Models</em>
+  <img src="https://github.com/user-attachments/assets/25319836-f2e8-4e2f-9c01-37600e9d0041" alt ="Feature importance" width = "650"><br>
+  <em>Feature importance across models (Percent_Cover dominates; others refine risk).</em>
 </p>
 
+### SHAP Explainability
 
-
-### 3) SHAP Explainability
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Mean Shap" width="650"><br>
-  <em>Figure 15: Mean SHAP Values by Class</em>
+  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Mean SHAP by class" width="650"><br>
+  <em>Mean SHAP values by class for the stacking model (validated with surrogate): cover is the dominant protective driver.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Output figure 5" width="650"><br>
-  <em>Figure 16: Beeswarm plot (Global Explaination)</em>
+  <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Beeswarm" width="650"><br>
+  <em>Beeswarm (global explanation): high cover shifts predictions toward Mild; other factors have smaller, context-dependent effects.</em>
 </p>
+
+### Feasible Interventions
+SHAP-guided edits (bounded, data-driven) to modifiable features—primarily **Percent_Cover**—yield large, model-consistent probability shifts on the test set.
+
+| Class | Baseline | After Intervention | Abs Δ | Rel Δ |
+|---|---:|---:|---:|---:|
+| **Mild** | 0.7955 | **0.8989** | **+0.1033** | **+12.99%** |
+| **Moderate** | 0.1396 | **0.0925** | **−0.0470** | **−33.71%** |
+| **Severe** | 0.0649 | **0.0086** | **−0.0563** | **−86.75%** |
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" alt="Output figure 6" width="650"><br>
-  <em>Figure 21: Before and After Interventions Bar Plot</em>
+  <img src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" alt="Before/After interventions" width="650"><br>
+  <em>Before vs. after interventions (mean probabilities, test set).</em>
 </p>
 
 ## Interpretation in One Paragraph
