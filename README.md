@@ -70,12 +70,12 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 ### SHAP Explainability
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Mean SHAP by class" width="650"><br>
+  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Mean SHAP by class" width="600"><br>
   <em>Figure 15: Mean SHAP values by class for the stacking model: Cover is the dominant protective driver.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Beeswarm" width="650"><br>
+  <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Beeswarm" width="600"><br>
   <em>Figure 16: Beeswarm (global explanation): High cover shifts predictions toward Mild; Other factors have smaller effects.</em>
 </p>
 
