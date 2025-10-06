@@ -59,7 +59,7 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e967973e-0812-425f-a29c-6cde707d3c3a"  alt="Confusion matrix" width="500"><br>
-  <em>Normalized confusion matrix (test set)</em>
+  <em>Figure 14: Normalized confusion matrix (test set)</em>
 </p>
 
 <p align="center">
@@ -71,12 +71,12 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Mean SHAP by class" width="650"><br>
-  <em>Mean SHAP values by class for the stacking model: Cover is the dominant protective driver.</em>
+  <em>Figure 15: Mean SHAP values by class for the stacking model: Cover is the dominant protective driver.</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Beeswarm" width="650"><br>
-  <em>Beeswarm (global explanation): High cover shifts predictions toward Mild; Other factors have smaller effects.</em>
+  <em>Figure 16: Beeswarm (global explanation): High cover shifts predictions toward Mild; Other factors have smaller effects.</em>
 </p>
 
 ### Feasible Interventions
@@ -90,7 +90,7 @@ SHAP-guided changes to modifiable features. **Percent_Cover** give large probabi
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" alt="Before/After interventions" width="650"><br>
-  <em>Before vs. after interventions (mean probabilities, test set).</em>
+  <em>Figure 21: Before vs After interventions.</em>
 </p>
 
 ## Interpretation in One Paragraph
