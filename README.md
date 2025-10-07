@@ -25,7 +25,7 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 - **Training Protocol:** 70/30 split, StandardScaler, SMOTE.  
 - **Explainability:** **Kernel SHAP** on the stack (global), **TreeExplainer** on RF/XGB and an **RF surrogate** of the stack (fast waterfalls).  
 - **Evaluation:** Accuracy, **macro** Precision/Recall/F1, **normalised confusion matrix**.  
-- **Interventions:** SHAP-guided, **feasible** edits of modifiable features (e.g., +cover).
+- **Interventions:** Guided by SHAP, **feasible** edits of modifiable features (e.g., +cover).
   
 ## Key Results
 
