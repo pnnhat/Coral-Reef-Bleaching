@@ -88,7 +88,7 @@ Making changes directed by SHARP to modifiable features. In short, **Percent_Cov
 | **Severe** | 0.0649 | **0.0086** | **−0.0563** | **−86.75%** |
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e34e13da-9b87-4bec-86e8-de23dff5d34c" alt="Before/After interventions" width="650"><br>
+  <img src="https://github.com/pnnhat/Coral-Reef-Bleaching/blob/main/figures/output15.png" alt="Before/After interventions" width="650"><br>
   <em>Figure 21: Before vs After interventions.</em>
 </p>
 
