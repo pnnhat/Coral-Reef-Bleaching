@@ -2,6 +2,7 @@
 > Predicting bleaching severity and turning explanations into “what-if” scenarios.
 
 **Full paper:** [Performance of stacking machine learning model for reducing coral reef bleaching.pdf](https://github.com/user-attachments/files/22741226/Performance.of.stacking.machine.learning.model.for.reducing.coral.reef.bleaching.pdf)
+
 **Dataset:** [BCO-DMO Global Bleaching & Environmental Data](https://www.bco-dmo.org/dataset/773466)
 
 ## Table of Contents
