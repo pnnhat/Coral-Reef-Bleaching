@@ -32,17 +32,17 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 ###  Exploratory Data Analysis
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/99528180-388f-4b4a-930c-252be026edb3" alt="Output figure 1" width="650"><br>
+  <img src="https://github.com/pnnhat/Coral-Reef-Bleaching/blob/main/figures/output.png" alt="Output figure 1" width="650"><br>
   <em>Figure 3: Log-Normal Distribution of Variables</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/88621e63-7586-49fd-b88a-8045bb53d9ea" alt="Output figure 2" width="650"><br>
+  <img src="https://github.com/pnnhat/Coral-Reef-Bleaching/blob/main/figures/output5.png" alt="Output figure 2" width="650"><br>
   <em>Figure 8: Percent Bleaching Over Time by Oceans</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b6a06501-9316-415b-afc1-6fa9cc69f6e2" alt="Output figure 3" width="600"><br>
+  <img src="https://github.com/pnnhat/Coral-Reef-Bleaching/blob/main/figures/output6.png" alt="Output figure 3" width="600"><br>
   <em>Figure 9: Correlation Heatmap</em>
 </p>
 
@@ -58,24 +58,24 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 **Confusion Matrix:** Mild recall **92.64%**; Moderate **58.46%**; Severe **50.95%**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e967973e-0812-425f-a29c-6cde707d3c3a"  alt="Confusion matrix" width="500"><br>
+  <img src="https://github.com/pnnhat/Coral-Reef-Bleaching/blob/main/figures/output7.png"  alt="Confusion matrix" width="500"><br>
   <em>Figure 14: Normalized confusion matrix (test set)</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/25319836-f2e8-4e2f-9c01-37600e9d0041" alt ="Feature importance" width = "650"><br>
+  <img src="https://github.com/pnnhat/Coral-Reef-Bleaching/blob/main/figures/output8.png" alt ="Feature importance" width = "650"><br>
   <em>Feature importance across models (Percent_Cover dominates)</em>
 </p>
 
 ### SHAP Explainability
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cb87d6f0-891b-4722-9eb7-b404fbd766f3" alt="Mean SHAP by class" width="600"><br>
+  <img src="https://github.com/pnnhat/Coral-Reef-Bleaching/blob/main/figures/output12.png" alt="Mean SHAP by class" width="600"><br>
   <em>Figure 15: Mean SHAP values by class for the stacking model: Cover is the dominant protective driver.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0954b464-4b6e-4a68-86ee-ab12f70bcf52" alt="Beeswarm" width="600"><br>
+  <img src="https://github.com/pnnhat/Coral-Reef-Bleaching/blob/main/figures/output13.png" alt="Beeswarm" width="600"><br>
   <em>Figure 16: Beeswarm (global explanation): High cover shifts predictions toward Mild; Other factors have smaller effects.</em>
 </p>
 
