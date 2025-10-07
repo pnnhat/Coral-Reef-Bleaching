@@ -64,7 +64,7 @@ Coral reefs play a crucial role in safeguarding marine ecosystems and coastal re
 
 <p align="center">
   <img src="https://github.com/pnnhat/Coral-Reef-Bleaching/blob/main/figures/output8.png" alt ="Feature importance" width = "650"><br>
-  <em>Feature importance across models (Percent_Cover dominates)</em>
+  <em>Figure 12: Feature importance across models (Percent_Cover dominates)</em>
 </p>
 
 ### SHAP Explainability
